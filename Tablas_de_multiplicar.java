@@ -3,7 +3,7 @@ public class Tablas_de_multiplicar {
        int n=1,k;
        float mult;
          
-    
+    //Inicio del ciclo
       while(n<=10){
           k=1;
     
@@ -17,7 +17,7 @@ public class Tablas_de_multiplicar {
         }  
         n=(int)  (n+1);
           System.out.println("\t");
-      }     
+      } //fin del ciclo while    
         
     }
     
