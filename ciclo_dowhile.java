@@ -3,7 +3,8 @@ public class ciclo_dowhile {
     public static void main(String[]args){
         int cu1,cu2,cu3,cu4,cu5,alumno;
         float promedio;
-        
+
+        //Inicio del do-while
         alumno=1;
         do{
          cu1=Byte.parseByte(JOptionPane.showInputDialog("Ingresa tu primera calificación"));
@@ -17,7 +18,7 @@ public class ciclo_dowhile {
                  alumno++;
                  
         } while(alumno<=34);
-         
+        //Termina el do-while
                 
         }
 }
