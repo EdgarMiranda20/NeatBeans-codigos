@@ -5,7 +5,7 @@ public class Ciclo_for {
         float promedio;
         
         
-        System.out.println("Ingresa tus cinco calificaciones");
+        System.out.println("Ingresa tus cinco calificaciones que tienes");
         
         for(alumno=1; alumno<=34; alumno++){
             cu1=Byte.parseByte(JOptionPane.showInputDialog("Ingresa tu primera calificación")); 
@@ -16,7 +16,7 @@ public class Ciclo_for {
             
             promedio=(cu1+cu2+cu3+cu4+cu5)/5;
             
-            System.out.println("Tu calificacion en la materia es de:  " + promedio);
+            System.out.println("Tu calificacion final en la materia es de:  " + promedio);
                    
         }
         
