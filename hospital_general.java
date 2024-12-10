@@ -1,5 +1,5 @@
 public class hospital_general {
-    public static void main (String[]args){
+    public static void main (String[]edg){
         
         int a,b,c,d,e,dinero;
         
@@ -21,7 +21,7 @@ public class hospital_general {
                    System.out.println("Se destino un 10% a los sanitarios lo que seria: $ " + d);
                            
                  e=(2000000-(a+b+c+d));               
-                  System.out.println("Se destino un 15% a los servicios generales lo que seria: $ " + e);           
+                  System.out.println("Se destino un 15% del presupuesto a los servicios generales lo que seria: $ " + e);           
         }
     }   
 
