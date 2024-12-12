@@ -7,7 +7,7 @@ public class cicloWhile_IMC {
          while (resp<=1){
            
         peso=Float.parseFloat(JOptionPane.showInputDialog("Ingresa tu peso"));
-        estatura=Float.parseFloat(JOptionPane.showInputDialog("Ingrese su estaura en formato de metros"));
+        estatura=Float.parseFloat(JOptionPane.showInputDialog("Por favor ingresa tu estaura en formato de metros"));
         imc=(peso/(estatura*estatura));
         JOptionPane.showMessageDialog(null, "El indice de masa corporal es de: " + imc);                
       
@@ -20,11 +20,11 @@ public class cicloWhile_IMC {
         }
         
         else if (imc>=25 && imc<=29.99) {
-            System.out.println("Sobrepeso");     
+            System.out.println(" Sobrepeso ");     
         }
         
         else if (imc>=30 && imc<=34.99){
-            System.out.println("Obesidad grado I");
+            System.out.println(" Obesidad grado I ");
         }
         
         else if(imc>=35 && imc<=39.99){
@@ -36,7 +36,7 @@ public class cicloWhile_IMC {
         }      
          }
         }
-    } //Cierra el metodo principal
+    } //Fin del metodo principal
     
 
 
