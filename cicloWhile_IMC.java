@@ -7,7 +7,7 @@ public class cicloWhile_IMC {
          while (resp<=1){
            
         peso=Float.parseFloat(JOptionPane.showInputDialog("Ingresa tu peso"));
-        estatura=Float.parseFloat(JOptionPane.showInputDialog("Por favor ingresa tu estaura en formato de metros"));
+        estatura=Float.parseFloat(JOptionPane.showInputDialog("Ingresa tu estaura en formato de metros"));
         imc=(peso/(estatura*estatura));
         JOptionPane.showMessageDialog(null, "El indice de masa corporal es de: " + imc);                
       
