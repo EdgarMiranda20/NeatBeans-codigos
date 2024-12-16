@@ -1,5 +1,5 @@
 public class hospital_general {
-    public static void main (String[]edg){
+    public static void main (String edg []){
         
         int a,b,c,d,e,dinero;
         
@@ -12,7 +12,7 @@ public class hospital_general {
                  System.out.println("Se destino un 20% al area de pediatria lo que vendria siendo: $ " + a);
                             
                  b=(2000000*15/100);
-                 System.out.println("Se destino un 15% al area de analisis clinos lo que seria: $ " + b);
+                 System.out.println("Se destino un 15% al area de analisis clinos lo que vendria siendo: $ " + b);
                        
                  c=(2000000*40/100); 
                   System.out.println("Se destino un 40% al area de ginecologia lo que seria: $ " + c);
