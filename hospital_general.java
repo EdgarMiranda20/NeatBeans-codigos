@@ -5,7 +5,7 @@ public class hospital_general {
         
          
         dinero=2000000;
-        System.out.println("El gobierno federal le destino a un hospital general la cantidad de: $ " + dinero);
+        System.out.println("El gobierno federal le destino a un hospital la cantidad de: $ " + dinero);
         System.out.println("................................................");
         
                  a=(2000000*20/100);
@@ -21,7 +21,7 @@ public class hospital_general {
                    System.out.println("Se destino un 10% a los sanitarios lo que seria: $ " + d);
                            
                  e=(2000000-(a+b+c+d));               
-                  System.out.println("Se destino un 15% del presupuesto a los servicios generales lo que seria: $ " + e);           
+                  System.out.println("Se destino un 15% del presupuesto total a los servicios generales lo que seria: $ " + e);           
         }
     }   
 
