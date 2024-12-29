@@ -16,7 +16,7 @@ public class Ciclo_for {
             
             promedio=(cu1+cu2+cu3+cu4+cu5)/5;
             
-            System.out.println("Tu calificacion final en la materia es de:  " + promedio);
+            System.out.println("Su calificacion final es de:  " + promedio);
                    
         }
         
