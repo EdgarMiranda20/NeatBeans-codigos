@@ -5,7 +5,7 @@ public class hospital_general {
         
          
         dinero=2000000;
-        System.out.println("El gobierno federal le destino a un hospital la cantidad de: $ " + dinero);
+        System.out.println("El gobierno federal le destino a un hospital la siguiente cantidad: $ " + dinero);
         System.out.println("................................................");
         
                  a=(2000000*20/100);
