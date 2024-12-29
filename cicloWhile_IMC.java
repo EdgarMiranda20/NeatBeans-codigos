@@ -9,7 +9,7 @@ public class cicloWhile_IMC {
         peso=Float.parseFloat(JOptionPane.showInputDialog("Ingresa tu peso"));
         estatura=Float.parseFloat(JOptionPane.showInputDialog("Ingresa tu estaura en formato de metros"));
         imc=(peso/(estatura*estatura));
-        JOptionPane.showMessageDialog(null, "El indice de masa corporal es de: " + imc);                
+        JOptionPane.showMessageDialog(null, "El indice de masa corporal es: " + imc);                
       
         if(imc<18.49){
             System.out.println("Peso Bajo");           
