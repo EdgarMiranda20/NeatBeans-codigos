@@ -14,7 +14,7 @@ public class CicloIMC {
         JOptionPane.showMessageDialog(null, "Su indice de masa corporal es de: " + imc);                
       
         if(imc<18.49){
-            System.out.println("Su peso es bajo");           
+            System.out.println("Peso bajo");           
         }
         
         else if(imc>=18.50 && imc<=24.99){
@@ -42,4 +42,4 @@ public class CicloIMC {
           }while(resp==1);//Aqui esta la condicion de el do/while
     } //Cierra el metodo principal
     
-}//Cierra la clase
+}//Cierra clase
