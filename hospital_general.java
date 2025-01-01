@@ -21,7 +21,7 @@ public class hospital_general {
                    System.out.println("Se destino un 10% a los sanitarios lo que seria: $ " + d);
                            
                  e=(2000000-(a+b+c+d));               
-                  System.out.println("Se destino un 15% del presupuesto total a los servicios generales lo que seria: $ " + e);           
+                  System.out.println("Se destino un 15% del presupuesto total a servicios generales lo que seria: $ " + e);           
         }
     }   
 
