@@ -17,6 +17,6 @@ public class Ciclofor {
                 
     
 }while(resp==1);
-    
+ //Termina do-while 
 }    
 }//cierra clase
