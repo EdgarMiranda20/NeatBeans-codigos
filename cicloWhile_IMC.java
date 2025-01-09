@@ -36,7 +36,7 @@ public class cicloWhile_IMC {
         }      
          }
         }
-    } //Fin del metodo principal
+    } //Se cierra clase 
     
 
 
