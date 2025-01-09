@@ -13,7 +13,7 @@ public class Ciclofor {
                     System.out.println(fact + "\t");
                 }//cierra for
                 System.out.println("El factorial de " + num + " es: " + fact);
-                resp=Byte.parseByte(JOptionPane.showInputDialog("Presiona 1 si quieres realizar" + "otro calculo"));
+                resp=Byte.parseByte(JOptionPane.showInputDialog("Presiona 1 si quieres realizar" + " otro calculo"));
                 
     
 }while(resp==1);
