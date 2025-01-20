@@ -3,7 +3,7 @@ public class Ciclofor {
  public static void main (String[]edg){
         byte resp,num,x;
         int fact;
-  //Inicializacion del do-while
+  //Inicializacion del do-while ciclo
         do{
          
         num=Byte.parseByte(JOptionPane.showInputDialog("Ingresa un nuemero: "));
